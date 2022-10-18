@@ -81,8 +81,8 @@ header img {
     width: 330px;
 }
 
-header h1 {
-    margin: 19px 0 11px 22px;
+main h1 {
+    margin: 19px 0 11px 0px;
     font-size: var(--15px);
     font-weight: 300;
     letter-spacing: 5px;

@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="./mobile.css">
   <link rel="stylesheet" href="./desktop.css" media="(min-width: 1440px)">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/chanel-logo.png">
-  <link rel="stylesheet" href="./mobile.css">
+  
   <title>Chanel preview card</title>
 
 
@@ -20,11 +20,18 @@
   <div class="card">
 
   <header>
-    <img src="./images/image-product-mobile.jpg" alt="Image of Gabrielle Essence Perfume">
-    <h1>PERFUME</h1>
+    <picture>
+      <source srcset="./images/image-product-mobile.jpg" media="(max-width: 1440px)">
+      <source srcset="./images/image-product-desktop.jpg">
+      <img src="./images/image-product-desktop.jpg" alt="Image of Gabrielle Essence Perfume">
+
+    </picture>
+    
+    
   </header>
 
   <main>
+    <h1>PERFUME</h1>
     <h2> Gabrielle Essence Eau De Parfum</h2>
     <p>  A floral, solar and voluptuous interpretation composed by Olivier <br> Polge, 
       Perfumer-Creator for the House of CHANEL.
