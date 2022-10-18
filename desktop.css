@@ -1,8 +1,47 @@
 .card {
     display: flex;
     flex-direction: row;
-    width: 630px;    
+    width: 730px;  
+    height: 547.5px;  
 }
 header img {
     background-image: url(./images/image-product-desktop.jpg);
+    border-radius: 10px 0px 0px 10px ;
+    width: 365px;
+}
+main {
+    padding: 0px 38px 22px 38px;
+    height: 547.5px;
+}
+main h1 {
+    margin: 37px 0 24px 0px;
+    font-size: var(--20px);
+}
+main h2 {
+    font-size: var(--52px);
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+main p {
+    font-size: var(--22px);
+    line-height: 28px;
+}
+main .price {
+    margin-top: 40px;
+    margin-bottom: 54px;
+}
+main .price-big {
+    font-size: var(--52px);
+}
+main button span {
+    margin-right: 15px;
+    width: 18px;
+    height: 18px;
+}
+main button {
+    height: 52px;
+    font-size: var(--22px);
+}
+.atribution p {
+    font-size: var(--28px);
 }
