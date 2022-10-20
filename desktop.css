@@ -26,6 +26,9 @@ main p {
     font-size: var(--22px);
     line-height: 28px;
 }
+main p br {
+    display: none;
+}
 main .price {
     margin-top: 40px;
     margin-bottom: 54px;
